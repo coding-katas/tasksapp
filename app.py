@@ -6,7 +6,7 @@ import socket
 app = Flask(__name__)
 
 # to run locally:
-app.config[“MONGO_URI”] = “mongodb://localhost:27017/dev”
+app.config["MONGO_URI"] = "mongodb://localhost:27017/dev"
 #app.config["MONGO_URI"] = "mongodb://mongo:27017/dev"
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 mongo = PyMongo(app)
