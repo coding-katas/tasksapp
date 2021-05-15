@@ -18,5 +18,5 @@ spec:
         - name: tasksapp
           image: gcr.io/project01-310404/tasksapp-python:1.0.0
           ports:
-            - containerPort: 5000
+            - containerPort: 8080
           imagePullPolicy: Always
